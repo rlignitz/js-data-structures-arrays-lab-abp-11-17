@@ -15,7 +15,3 @@ function destructivelyRemoveLastDriver() {
 function destructivelyRemoveFirstDriver() {
   drivers.shift();
 }
-
-function appendDriver(name) {
-  return let newDrivers = [name, ...drivers];
-}
